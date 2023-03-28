@@ -1,9 +1,14 @@
-import Navbar from "./components/navbar/Navbar";
+import React from 'react'
+import Navbar from './Component/Navbar/Navbar'
+import ProductForm from './Component/ProductForm/ProductForm'
 
-function App() {
+const App = () => {
   return (
-    <Navbar/>
-  );
+    <div>
+      <Navbar/>
+      <ProductForm/>
+    </div>
+  )
 }
 
-export default App;
+export default App
